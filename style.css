@@ -1,0 +1,137 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 95vw;   
+   margin-inline:auto;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .navbar{
+    width:180px;
+
+} */
+.logo  img{
+    width:180px
+}
+.navbar1{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-icons{
+    font-size: 20px ;
+    font-family: sans-serif;
+    color: #001365;
+}
+.banner{
+    width:95vw;
+}
+.banner img {
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    color: #001365;
+
+}
+.boxes{
+    margin-top: 80px;
+    width: 80vw;
+    margin-inline: auto;
+    color:#001365;
+    line-height:30px ;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.how-horlicks{
+    font-size: 20px;
+}
+.diff-quality-img img{
+    width: 80px;
+    margin-right: 30px;
+    
+
+}
+
+.rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #001365;
+    padding: 20px;
+    width: 150px;
+   padding: 1px 22px;
+   color:  #001365;
+  }
+  .horlicksNutrimeter-img{
+    width: 250px;
+    border-radius: 30px;
+  }
+.banner-bottom{
+   margin-top: 100px;
+   width: 95vw;
+   height: 700px;
+
+}
+.footer{
+    margin-top: 50px;
+    width: 95vw;
+    background-color: #ebebeb;
+   padding-top: 50px ;
+   display: flex;
+   justify-content: space-around;
+}
+.footer p {
+    font-size: 20px;
+    line-height: 16px;
+}
+.footer h2{
+   font-weight: bolder;
+}.footer-left img{
+   width: 30px;
+   height: 30px;
+   padding-top: 20px;
+
+}.footer-left{
+    display: flex;
+    justify-content: space-around;
+}.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    background-color: #ebebeb;
+   
+}
+
+
+
+@media only screen and (max-width:767px) {
+      
+    .navbar1{
+        display: none;
+    }
+    .navbar{
+        justify-content: start;
+    }.logo  img{
+        width:100px;
+     }.head h1{
+       font-size: larger;
+       font-weight: bold;
+    }
+    
+
+    
+
+ 
+
+}
+  
